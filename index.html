@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Configura a viewport para responsividade -->
+    <link rel="stylesheet" href="/style/index.css"><!-- Link para o arquivo CSS -->
+    <title>Portifólio</title> <!-- Título da página -->
+</head>
+<body>
+    <!-- Seção de cabeçalho -->
+    <div id="sobre" class="containerHeader">
+        <h1>Alexsander Rocha</h1> <!-- Título principal -->
+        <nav>
+            <ul><!-- Título principal -->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul> 
+    </div>
+    <!-- Seção de apresentação -->
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/110127985?v=4" alt="Alexsander Rocha"> <!-- Imagem de perfil -->
+        <div class="text">
+            <h2>Desenvolvedor Web</h2>  <!-- Subtítulo -->
+            <p>Olá, meu nome é Alexsander Rocha, sou desenvolvedor web e estou em busca de novos desafios. Atualmente estou estudando desenvolvimento web e buscando oportunidades para trabalhar na área. Se você está em busca de um desenvolvedor web, entre em contato comigo.</p>
+            <p>Sou desenvolvedor web e gosto de aprender coisas novas, não só sobre programação, mas também outros idiomas e áreas do conhecimento. No meu tempo livre, curto jogar RPG e FPS, além de praticar atividades físicas. Gosto de jogar handebol e caminhar com amigos, aproveitando o tempo para me movimentar e relaxar. Sempre busco evoluir, seja no trabalho, nos estudos ou no dia a dia.</p>
+            <p>Abaixo irei deixar dois projetos meus praticando frontend e backend</p> <!-- Texto de apresentação -->
+            <div class="linguagens">
+                <ul> <!-- Lista de linguagens -->
+                    <li>JAVA</li>
+                    <li>PYTHON</li>
+                    <li>JAVASCRIPT</li>
+                    <li>TYPESCRIPT</li>
+                    <li>ANGULAR</li>
+                    <li>REACT</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h3 id="projetos">PROJETOS</h3>
+     <!-- Seção de projetos -->
+    <div class="containerBottom">
+        <div class="containerBottomleft">
+            <a href="https://github.com/sndr/Api_NASA">NASA FOTOS</a> <!-- Link para projeto -->
+            <img src="/style/nasa.png"> <!-- Imagem do projeto -->
+        </div>
+        <div class="containerBottomRight">
+            <a href="https://github.com/sndr/Allocation">ALOCAÇÃO</a>
+            <img src="/style/alocação.png" >
+        </div>
+    </div>
+     <!-- Seção de formação -->
+    <div id="formacao" class="containerformacao">
+        <img src="/style/profile.jpg"> <!-- Imagem de perfil -->
+        <div class="textformacao">
+            <h2>FORMAÇÃO</h2>  <!-- Título da seção -->
+            <p>Sou estudante de Engenharia de Software, focado em desenvolvimento web, que é minha grande paixão. Atualmente, estou trabalhando em projetos para aprimorar minhas habilidades e ganhar mais experiência. Além do meu idioma nativo, português, tenho conhecimento intermediário em inglês, básico em espanhol e holandês.</p>
+            <div class="linguagensformacao">
+                <ul> <!-- Lista de idiomas -->
+                    <li>INGLÊS</li>
+                    <li>ESPANHOL</li>
+                    <li>HOLANDES</li>
+                    <li>PORTUGUÊS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      <!-- Seção de contato -->
+    <div id="contato" class="contato">
+        <h3>CONTATO</h3> <!-- Título da seção -->
+        <p>Se você gostou do meu trabalho e quer entrar em contato comigo, me envie um e-mail ou me chame no LinkedIn. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente. Se você tem uma oportunidade de trabalho ou quer apenas bater um papo, estou à disposição.</p>
+        <div class="containercontato">
+            <ul> <!-- Lista de links de contato -->
+                <li>
+                    <a href="https://github.com/sndr">GITHUB</a>
+                    <img src="/style/github_11376339.png" > <!-- Imagem do GitHub -->
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/alexsander-benjamin-188029241/">LINKEDIN</a>
+                </li>
+            </ul>
+        </div> 
+         <!-- Formulário de contato -->
+        <div class="containerform">
+            <form >
+                <h4>Envie-me uma mensagem</h4>  <!-- Título do formulário -->
+                <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" name="nome" required> <!-- Campo de nome -->
+                <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Digite seu email" name="email" required> <!-- Campo de email -->
+                <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" placeholder="digite sua mensagem" name="mensagem" required></textarea>   <!-- Campo de mensagem -->
+                <button type="submit">Enviar</button> <!-- Botão de envio -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>

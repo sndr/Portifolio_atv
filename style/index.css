@@ -290,6 +290,15 @@ h3{
         /* Adiciona espaçamento entre os itens da lista */
     }
 }
+.textformacao p{
+    font-family: "Roboto Condensed", serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    width: 50%;
+    /* Estiliza parágrafos na seção de formação */
+}
 
 .contato{
     height: 30vh;
@@ -351,6 +360,7 @@ h3{
         width: 30%;
         margin-left: 30%;
     }
+}
 .containerformacao img{
     margin-left: 205px ;
     padding: 6px;
@@ -575,6 +585,5 @@ h3{
         font-family: "Roboto Condensed", serif;
         margin-left: 40%;
         /* Estiliza o título do formulário */
-}
 }
 }

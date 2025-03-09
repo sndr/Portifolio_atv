@@ -60,6 +60,22 @@ body{
     }
     
 }
+@media screen and (max-width: 1515px){
+    .containerHeader ul{
+        margin-left: 10%;
+        /* Ajusta a margem da lista de navegação para telas menores */
+    }
+    .containerHeader h1{
+        font-size: 40px;
+        margin-left: 25%;
+        /* Ajusta o tamanho e margem do título principal para telas menores */
+    }
+    .containerHeader ul li a{
+        font-size: 25px;
+        /* Ajusta o tamanho da fonte dos links de navegação para telas menores */
+    }
+    
+}
 
 .text p{
     font-family: "Roboto Condensed", serif;
@@ -184,6 +200,28 @@ h3{
         height: 5%;
     }
 
+}
+@media screen and (max-width: 1515px){
+
+    .containerBottomleft img{
+        height: 29vh;
+        margin-left: 20px ;
+        
+    }
+    .containerBottomRight img{
+        height: 28vh;
+    }
+    .containerBottomleft a{
+        margin-left: 44%;
+        margin-right: 0;
+        height: 5%;
+    }
+    .containerBottomRight a{
+        margin-left: 27%;
+        margin-right: 0;
+        height: 5%;
+    }
+    
 }
 
 .linguagens li{
